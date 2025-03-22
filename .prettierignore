@@ -1,0 +1,6 @@
+auto-import.d.ts
+uni-pages.d.ts
+
+# 插件生成的文件
+src/pages.json
+src/manifest.json
