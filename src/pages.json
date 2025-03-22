@@ -2,6 +2,7 @@
   "globalStyle": {
     "navigationStyle": "default",
     "navigationBarTitleText": "uni-ts-template",
+    "navigationBarTextStyle:": "black",
     "navigationBarBackgroundColor": "#f8f8f8",
     "navigationBarTextStyle": "black",
     "backgroundColor": "#FFFFFF"
@@ -14,49 +15,43 @@
     }
   },
   "tabBar": {
-    "color": "#808080",
-    "selectedColor": "#1A1A1A",
-    "backgroundColor": "#ffffff",
-    "borderStyle": "white",
+    "color": "#999999",
+    "selectedColor": "#018d71",
+    "backgroundColor": "#F8F8F8",
+    "borderStyle": "black",
     "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
     "list": [
       {
-        "iconPath": "static/tabbar/index.png",
-        "selectedIconPath": "static/tabbar/index-active.png",
-        "pagePath": "pages/tabbar/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/homeHL.png",
+        "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
-        "iconPath": "static/tabbar/mine.png",
-        "selectedIconPath": "static/tabbar/mine-active.png",
-        "pagePath": "pages/tabbar/user",
-        "text": "我的"
+        "iconPath": "static/tabbar/example.png",
+        "selectedIconPath": "static/tabbar/exampleHL.png",
+        "pagePath": "pages/about/about",
+        "text": "关于"
       }
     ]
   },
   "pages": [
     {
       "path": "pages/tabbar/index",
+      "type": "page",
       "style": {
-        "navigationBarTitleText": "模板平台"
+        "navigationBarTitleText": "首页"
       }
     },
     {
       "path": "pages/tabbar/user",
-      "type": "page",
-      "style": {
-        "navigationBarTitleText": "模板平台",
-        "enablePullDownRefresh": false,
-        "app-plus": {
-          "bounce": "none"
-        }
-      }
+      "type": "page"
     },
     {
       "path": "pages/user/login",
-      "style": {
-        "navigationStyle": "custom"
-      },
       "type": "page"
     }
   ],
