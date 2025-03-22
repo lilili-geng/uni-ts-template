@@ -25,16 +25,16 @@
     "spacing": "3px",
     "list": [
       {
-        "iconPath": "static/tabbar/home.png",
-        "selectedIconPath": "static/tabbar/homeHL.png",
-        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/index-active.png",
+        "pagePath": "pages/tabbar/index",
         "text": "首页"
       },
       {
-        "iconPath": "static/tabbar/example.png",
-        "selectedIconPath": "static/tabbar/exampleHL.png",
-        "pagePath": "pages/about/about",
-        "text": "关于"
+        "iconPath": "static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine-active.png",
+        "pagePath": "pages/tabbar/user",
+        "text": "我的"
       }
     ]
   },
